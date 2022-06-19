@@ -1,0 +1,113 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* .box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff6a39;
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #182227;
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4b22f4;
+    text-align: center;
+} */
+
+h1 {
+    color: #FFFF;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    Forma de atajo es la de abajo:  */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 2rem;
+    padding: 4rem 10rem 4rem 10rem;  
+    background: #182227;
+}
+
+.box4 {
+    background: beige;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.box4 h2 {
+    margin-bottom: 0;
+}
+
+.box4 p {
+    margin-bottom: 1rem;
+}
+
+.box5 {
+    background: beige;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.box5 h2 {
+    margin-bottom: 0;
+}
+
+.box5 p {
+    margin-bottom: 1rem;
+}
+
+.box6 {
+    background: beige;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.box6 h2 {
+    margin-bottom: 0;
+}
+
+.box6 p {
+    margin-bottom: 1rem;
+}
+
+.box7 {
+    background: beige;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.box7 h2 {
+    margin-bottom: 1rem;
+}
+
+.box7 p {
+    margin-bottom: 1rem;
+}
