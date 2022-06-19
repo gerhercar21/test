@@ -35,28 +35,14 @@ h1 {
 main {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    Forma de atajo es la de abajo:  */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     gap: 2rem;
     padding: 4rem 10rem 4rem 10rem;  
     background: #182227;
 }
-
-/* .box1 {
-    grid-row: 1/5;
-}
-
-.box2 {
-    grid-row: 1/3;
-}
-
-.box3 {
-    grid-row: 1/5;
-} */
-
-/* .services {
-    background: #182227;
-} */
 
 .box4 {
     background: beige;
@@ -68,7 +54,7 @@ main {
 }
 
 .box4 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .box4 p {
@@ -85,7 +71,7 @@ main {
 }
 
 .box5 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .box5 p {
@@ -102,7 +88,7 @@ main {
 }
 
 .box6 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .box6 p {
