@@ -14,6 +14,64 @@ body {
     }
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header {
+    margin: 40px 20px 20px;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* .box1 {
     display: flex;
     align-items: center;
