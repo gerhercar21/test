@@ -1,18 +1,77 @@
+/* Banner */
+
+.nav-bar {
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(/foodexample.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .input {
     position: relative;
     width: 100%;
     padding: 3rem 5rem;
+    text-align: center;
+}
+
+.input h1 {
+    margin-top: 11rem;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.input p {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 .input input {
     padding: 1rem 3rem;
+    width: 50%;
+    border-radius: 2rem;
+    border: none;
+}
+
+.input button {
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    background-color: #9C0F48;
+    border: none;
+    color: white;
+    margin-left: 1%;
 }
 
 .input-icon {
     position: absolute;
-    top: 50%;
+    top: 75.8%;
     transform: translateY(-50%);
-    left: 6.5%;
+    left: 24.5%;
+    fill: #595959;
+}
+
+.random-btn a {
+    text-decoration: none;
+    color: #9C0F48;
+    font-weight: 900;
+}
+
+.random-btn {
+    margin-top: 1%;
+}
+
+.random-btn p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+/* Random Page */
+
+.back {
+    margin-top: 3%;
 }
 
 .back a{
@@ -35,10 +94,15 @@
     text-decoration: none;
 }
 
+.row {
+    padding: 0 0 4rem 0;
+    gap: 3rem;
+}
+
 .card {
-    width: 80%;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .card img {
@@ -46,6 +110,12 @@
     height: 25vh;
     overflow: hidden;
     object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .card-body a {
@@ -62,6 +132,18 @@
 }
 
 @media (max-width: 575px) {
+
+    .input {
+        padding: 3rem 0;
+    }
+
+    .back {
+        border: solid 1px #595959;
+        padding: 1rem;
+        width: 50%;
+        margin-left: 1rem;
+        border-radius: 4px;
+    }
 
     .random-head {
         text-align: center;
@@ -102,5 +184,9 @@
         background-color: #9C0F48;
         color: white;
         text-decoration: none;
+    }
+
+    .card-title {
+        font-size: 18px;
     }
 }
